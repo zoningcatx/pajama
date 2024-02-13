@@ -59,8 +59,8 @@ function App() {
             </div>
           </div>
           <div className="socialBlock">
-            <a href="https://t.me/caseyspizzalobby"><img className="social" alt="telegram" src={telegram}/></a>
-            <a href="https://twitter.com/TrumpPizza_"><img className="social" alt="x" src={twitter}/></a>
+            <a href="https://t.me/pajamaboyonsol"><img className="social" alt="telegram" src={telegram}/></a>
+            <a href="https://twitter.com/PajamaBoyonsol"><img className="social" alt="x" src={twitter}/></a>
             <p className="lastText red">PAJAMA BOY 2024</p>
           </div>
         </div>
