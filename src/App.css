@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*GENERICS STYLES*/
+
+.red {
+    color: #E3BF6D;
+}
+.white {
+    color: #fff;
+}
+.heading{
+    font-size: 120px;
+    color: #E3BF6D;
+    font-family: 'Anton', sans-serif;
+}
+.heading2{
+    font-size: 90px;
+    font-family: 'Anton', sans-serif;
+}
+.subheading{
+    font-size: 70px;
+    font-family: 'Imbue', serif;
+    color: #fff;
+    line-height: 150px;
+}
+.subheading2{
+    font-size: 50px;
+    font-family: 'Imbue', serif;
+}
+.layout {
+    margin: 0 120px;
+    text-align: center;
+}
+
+/*APP STYLES*/
+
+.paddingTop{
+    margin-top:-40px;
+}
+
+.main {
+    background-image: url('./assets/Bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: bottom;
+}
+.logo{
+    margin-top:100px;
+}
+.textBlock {
+    text-align: center;
+    line-height: 190px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.textBlock h1 {
+    -webkit-text-stroke: 2px black;
+}
+.button{ 
+    padding:10px 50px;
+    border: 5px solid #000;
+    color:#000;
+    background-color:#E3BF6D;
+    border-radius: 20px;
+}
+.buttonText{
+    font-family: 'Anton', sans-serif;
+    font-size: 36px;    
+}
+.run{
+    font-family: 'Anton', sans-serif;
+    font-size: 42px;
+    padding:0 10px;
+}
+.runborder{
+    font-size: 42px;
+    font-family: 'Anton', sans-serif;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: #E3BF6D; 
+}
+
+.about {
+    background-color: #fff;
+}
+.aboutTextBlock{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.imgLayout{
+    margin: 0 auto;
+    text-align: center;
+}
+.memeStyle{
+    margin: 10px;
+}
+
+.socialBlock{
+    text-align: center;
+    margin-top:20px;
+}
+.social{
+    margin: 0 10px;
+}
+.lastText{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: 'Imbue', serif;;
+    font-size: 30px;
+}
+
+.runningTextBlock {
+    overflow: hidden;
+  }
+  
+  .runningText {
+    white-space: nowrap;
+    animation: marquee 3s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-30%);
+    }
+  }
